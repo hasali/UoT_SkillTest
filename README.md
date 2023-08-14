@@ -50,7 +50,7 @@ WHERE
   rn = 1;
 </code>
 <br>
-3.Calculate the total number of books published each year and display the results by year.
+3. Calculate the total number of books published each year and display the results by year.
 <code>
 SELECT
   EXTRACT(YEAR FROM published_date) AS publication_year,
@@ -61,5 +61,4 @@ GROUP BY
   publication_year
 ORDER BY
   publication_year;
-
 </code>
