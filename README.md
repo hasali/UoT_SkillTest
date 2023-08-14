@@ -1,5 +1,9 @@
 # UoT_SkillTest
 ## **Part 1**
+- Used Neondb, a servless postgres database and the .env file is included.
+- The web app was built with express as backend and vanilla JS for the front.
+- Dependencies: express, pg, and axios.
+<br>
 ## **Part 2**
 1. Find the oldest book for each author.
 <code>
